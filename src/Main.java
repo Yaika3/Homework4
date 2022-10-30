@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int age = 17;
@@ -41,6 +43,64 @@ public class Main {
         if (standingPlaces < 42){
             System.out.println("Место есть");
     }
+
+        //task 4 else
+        int ageA = 17;
+        if ( ageA >= 18) {
+            System.out.println( "поздравляем с совершеннолетием!");
+        }
+
+        else {
+            System.out.println( "возраст совершеннолетия ещё не наступил, и нужно немного подождать.!");
+
+
+    }
+        //task 5 else - по задачам с возрастом и поездом в комментах ребятки уже решили этот вопрос)конструкция else не требуется тк несколько условий.
+
+
+
+
+
+        // task 6
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите Ваш возраст: ");
+        int ageTwo = in.nextInt();
+        boolean kindergarten = ageTwo > 2 && ageTwo <= 6;
+        boolean school = ageTwo >= 7 && ageTwo < 18;
+        boolean college = ageTwo>= 18 && ageTwo < 24;
+        boolean Job = ageTwo > 24;
+
+        if ( kindergarten){
+            System.out.println("нужно ходить в детский сад");}
+            if (school) {
+                System.out.println("нужно ходить в школу");}
+            if (college) {
+                System.out.println("в университет");}
+            if (Job) {
+                System.out.println(" пора ходить на работу");}
+
+
+            //task 7 все задачи записал в один проэкт(задача 7 работает после исполнение задачи 6)
+
+        int kid = 5;
+        boolean kidFive = kid < 5;{
+            System.out.println( "он не может кататься на аттракционе.");}
+        boolean KidFive14 = kid > 5 && kid < 14; {
+            System.out.println("он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");}
+        boolean Kid14 = kid > 14; {
+            System.out.println("он может кататься без сопровождения взрослого.");}
+
+
+        // task 8 (можно сравнивать каждое число,но зачем если есть такой вариант отпимизации кода?или я неправильно понял?)
+        int one = 1;
+        int two = 2;
+        int free= 3;// если поменять на 1 то выполнится условия else
+        if (free> two && free> one){
+            System.out.println("Наибольшее число "+ free);}
+        else System.out.println(" Программа не работает");
+
+
+
 
 
     }}
