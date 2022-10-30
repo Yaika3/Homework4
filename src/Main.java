@@ -44,6 +44,8 @@ public class Main {
             System.out.println("Место есть");
     }
 
+
+
         //task 4 else
         int ageA = 17;
         if ( ageA >= 18) {
@@ -98,8 +100,6 @@ public class Main {
         if (free> two && free> one){
             System.out.println("Наибольшее число "+ free);}
         else System.out.println(" Программа не работает");
-
-
 
 
 
