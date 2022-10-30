@@ -96,9 +96,9 @@ public class Main {
         // task 8 (можно сравнивать каждое число,но зачем если есть такой вариант отпимизации кода?или я неправильно понял?)
         int one = 1;
         int two = 2;
-        int free= 3;// если поменять на 1 то выполнится условия else
-        if (free> two && free> one){
-            System.out.println("Наибольшее число "+ free);}
+        int three= 3;// если поменять на 1 то выполнится условия else
+        if (three> two && three> one){
+            System.out.println("Наибольшее число "+ three);}
         else System.out.println(" Программа не работает");
 
 
